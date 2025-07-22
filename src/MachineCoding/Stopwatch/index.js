@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './style.css';
 
-export default function App() {
+export default function StopWatch() {
   const [sec, setSec] = useState(0);
   const [started, setStarted] = useState(false);
   let timerRef = useRef(null);
